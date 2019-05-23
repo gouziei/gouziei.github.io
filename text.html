@@ -12,5 +12,17 @@
     <p>狗2</p>
     <p>狗3</p>
     <p>狗4</p>
+    <script>
+    // 1.实例化ajax对象 (小黄人对象)
+        var xhr = new XMLHttpRequest()
+    // 2.设置请求的方法和地址
+        xhr.open(方法, 地址)
+    // 3.设置请求头(post才需要)
+        xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded')
+    // 4.注册回调函数
+        xhr.onload = function() {}
+    // 5.发送请求 post的数据在send中发送
+        xhr.send(数据)
+    </script>
 </body>
 </html>
